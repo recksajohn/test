@@ -1,0 +1,9 @@
+import nexmo
+
+client = nexmo.Client(key='3bc166cf', secret='VG0ESMy4I0h0OOfi')
+
+client.send_message({
+    'from': 'Seseorang',
+    'to': '6281235913835',
+    'text': 'Hello sam igar',
+})
